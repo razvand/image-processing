@@ -265,3 +265,7 @@ __pycache__/
 *.rar
 *gz
 *bz2
+
+# Project in and out files
+*.in
+*.out

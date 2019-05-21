@@ -269,3 +269,10 @@ __pycache__/
 # Project in and out files
 *.in
 *.out
+
+# Debug and Release folders of Visual Studio
+Debug/
+Release/
+
+# Windows files
+desktop.ini

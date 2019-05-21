@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<executor>
+  <modules>
+    <module name="adder">
+      <input>../input</input>
+      <output>../adder-out</output>
+      <run type="for-each-input-file">
+        <path>Adder.exe</path>
+      </run>
+    </module>
+    <module name="multiplier">
+      <input>../adder-out</input>
+      <output>../multiplier-out</output>
+      <run type="for-each-input-file">
+        <path>Multiplier.exe</path>
+      </run>
+    </module>
+    <module name="xorer">
+      <input>../multiplier-out</input>
+      <output>../xorer-out</output>
+      <run type="for-each-input-file">
+        <path>Xorer.exe</path>
+      </run>
+    </module>
+  </modules>
+</executor>
